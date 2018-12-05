@@ -5,6 +5,5 @@ A toy rack app for testing Docker schedulers.
 Run it with:
 
 ```
-docker run -p 9292:9292 ktheory/docker-scratch-app
+docker run -e version=hello -ti --rm -p 9292:9292 ktheory/docker-scratch-app
 ```
-
